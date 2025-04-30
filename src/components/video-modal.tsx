@@ -26,11 +26,11 @@ export default function VideoModal({ isOpen, onClose, ...props }: PropsType) {
   }
 
   return createPortal(
-    <div className="fixed inset-0 flex items-center justify-center bg-black/60">
+    <div className="fixed inset-0 flex items-center justify-center bg-black/60 z-[9999]">
       <div className="relative w-full max-w-4xl bg-gray-900">
         <button
           onClick={onClose}
-          className="absolute -top-2 -right-4 translate-x-full text-7xl leading-none text-white"
+          className="absolute -top-2 hover:cursor-pointer -right-4 translate-x-full text-7xl leading-none text-white"
         >
           <span className="sr-only">Close modal</span>
           &times;
