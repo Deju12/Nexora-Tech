@@ -2,35 +2,36 @@ import { Testimonial } from "@/types/testimonial";
 import SectionTitle from "../Common/SectionTitle";
 import SingleTestimonial from "./SingleTestimonial";
 
-const testimonialData: Testimonial[] = [
+const testimonialData: Testimonial[] =[
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Kasiye taye",
+    designation: "Co-Founder @Kasutechtops",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Working with Nexora Tech was a game-changer for our startup. Their team built our platform from scratch — fast, reliable, and exactly what we needed.",
+    image: "/images/testimonials/abel.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Hanna Tsegaye",
+    designation: "Marketing Head @AfroBiz",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "We got our company profile designed by Nexora Tech and it truly elevated our brand. Clean design, professional touch, and quick delivery.",
+    image: "/images/testimonials/hanna.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Samuel Getachew",
+    designation: "IT Manager @Addis Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "Their support is excellent. From website development to setting up our internal network, Nexora Tech delivered with quality and care.",
+    image: "/images/testimonials/samuel.png",
     star: 5,
-  },
-];
+  }
+]
+;
 
 const Testimonials = () => {
   return (
@@ -38,7 +39,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Our clients trust us to deliver quality work. Here’s what they say about their experience with Nexora Tech."
           center
         />
 
