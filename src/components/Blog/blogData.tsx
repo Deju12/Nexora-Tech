@@ -3,45 +3,46 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "How We Build Startups from Idea to Product",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "At Nexora Tech, we specialize in turning your startup ideas into fully functional products using modern tools like Next.js and Tailwind CSS.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Dejene Tesfaye",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "FullStack Developer",
     },
-    tags: ["creative"],
+    tags: ["startup", "development"],
     publishDate: "2025",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "The Power of a Strong Company Profile",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "A well-crafted company profile speaks for your brand. Learn how our designs help businesses build credibility and connect with clients.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Netsanet Alemu",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "UI/UX Designer",
     },
-    tags: ["computer"],
+    tags: ["branding", "design"],
     publishDate: "2025",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Essential Network Setup Tips for Small Businesses",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Reliable networking is key for growth. Here’s how Nexora Tech ensures secure, scalable setups for Ethiopian startups and businesses.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Mekdes Fikre",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Network Engineer",
     },
-    tags: ["design"],
+    tags: ["networking", "security"],
     publishDate: "2025",
   },
 ];
+
 export default blogData;

@@ -10,8 +10,8 @@ const Blog = () => {
     >
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Our Latest Insights"
+          paragraph="Stay updated with tips, trends, and ideas from the Nexora Tech team. We share knowledge on startups, web development, networking, and digital innovation."
           center
         />
 

@@ -27,8 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                Your Partner in Digital Transformation
                 </p>
                 <div className="flex items-center">
                   <a
@@ -123,14 +122,14 @@ const Footer = () => {
                       Blog
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Pricing
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       href="/about"

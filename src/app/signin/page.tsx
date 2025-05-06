@@ -3,8 +3,8 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sign In Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Sign In Page for Startup Nextjs Template",
+  title: "Sign In | Nexora Tech",
+  description: "Access your Nexora Tech account by signing in to our platform.",
   // other metadata
 };
 
